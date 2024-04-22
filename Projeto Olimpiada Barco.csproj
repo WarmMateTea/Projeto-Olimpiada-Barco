@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Projeto_Olimpiada_Barco</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Tao.FreeGlut">
+      <HintPath>..\..\..\..\..\Apps\TaoFramework\bin\Tao.FreeGlut.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl">
+      <HintPath>..\..\..\..\..\Apps\TaoFramework\bin\Tao.OpenGl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
